@@ -10,6 +10,7 @@ export default defineConfig({
     tailwindcss(),
 
   ],
+  base: '/resumebuilder/resume/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src') // Adjust 'src' to your project folder if needed
